@@ -1,4 +1,4 @@
-# base 
+# base
 
 Module that provides the reference architecture.
 

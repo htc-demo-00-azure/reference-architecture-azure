@@ -233,6 +233,7 @@ Once you are finished with the reference architecture, you can remove all provis
 
 | Name | Version |
 |------|---------|
+| terraform | >= 1.0.0 |
 | terraform | >= 1.3.0 |
 | azapi | ~> 1.11 |
 | azuread | ~> 2.47 |
@@ -249,6 +250,13 @@ Once you are finished with the reference architecture, you can remove all provis
 |------|---------|
 | humanitec | ~> 1.0 |
 
+### Providers
+
+| Name | Version |
+|------|---------|
+| azurerm | ~> 3.87 |
+| local | n/a |
+
 ### Modules
 
 | Name | Source | Version |
@@ -264,6 +272,14 @@ Once you are finished with the reference architecture, you can remove all provis
 |------|------|
 | [humanitec_service_user_token.deployer](https://registry.terraform.io/providers/humanitec/humanitec/latest/docs/resources/service_user_token) | resource |
 | [humanitec_user.deployer](https://registry.terraform.io/providers/humanitec/humanitec/latest/docs/resources/user) | resource |
+
+### Resources
+
+| Name | Type |
+|------|------|
+| [azurerm_storage_account.tfstate](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_account) | resource |
+| [azurerm_storage_container.tfstate](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/storage_container) | resource |
+| [local_file.terraform_backend_config](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file) | resource |
 
 ### Inputs
 
