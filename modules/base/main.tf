@@ -44,6 +44,7 @@ module "azure_aks" {
   ]
 
   oidc_issuer_enabled = true
+  workload_identity_enabled = true
 
   network_contributor_role_assigned_subnet_ids = {
     resource_group = azurerm_resource_group.main.id
